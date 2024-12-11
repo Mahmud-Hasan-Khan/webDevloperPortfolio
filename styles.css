@@ -63,9 +63,9 @@ nav a {
 
 .header {
     background-color: #fff8f3;
-    background-image: url(./images/header_bg.png);
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -103,7 +103,6 @@ nav a {
 }
 
 main {
-    /* max-width: 1140px; */
     margin: 0 auto;
 }
 
@@ -146,13 +145,11 @@ main {
 
 .what-I-do {
     padding: 0 130px;
-    /* margin:  130px; */
     text-align: center;
 }
 
 .section-description {
     padding-left: 130px;
-
 }
 
 .what-I-do-container {
@@ -166,8 +163,7 @@ main {
 
 .skill {
     padding: 30px;
-    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
-    ;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);;
     text-align: left;
     gap: 24px;
     border-radius: 5px;
@@ -251,5 +247,4 @@ footer {
     background-color: #fff;
     border: 0;
     width: 100%;
-    
 }
