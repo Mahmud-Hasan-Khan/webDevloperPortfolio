@@ -173,11 +173,12 @@ main {
     border-radius: 5px;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 130px;
+    padding: 0 130px;
+    gap: 50px;
 }
 
 #resume-title {
@@ -208,17 +209,39 @@ main {
     margin-bottom: 0;
 }
 
-.resume-column p{
+.resume-column p {
     font-size: 16px;
     line-height: 1.75;
     color: #757575;
     margin-top: 10px;
-    width: 450px;
+    padding-right: 50px;
 }
 
-.Resume-Section-btn{
+.Resume-Section-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    background-color: #fff8f3;
+    justify-content: space-around;
+    padding: 130px;
+}
+
+.section-description-footer {
+    font-size: 16px;
+    color: #474747;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact-form, textarea{
+    display: block;
 }
